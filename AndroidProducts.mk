@@ -1,13 +1,13 @@
 #
-# Copyright (C) 2021 The LineageOS Project
+# Copyright (C) 2020 The LineageOS Project
 #
 # SPDX-License-Identifier: Apache-2.0
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp_venus.mk
+    $(LOCAL_DIR)/twrp_venus.mk
 
 COMMON_LUNCH_CHOICES := \
-    aosp_venus-user \
-    aosp_venus-userdebug \
-    aosp_venus-eng
+    twrp_venus-user \
+    twrp_venus-userdebug \
+    twrp_venus-eng

@@ -18,4 +18,6 @@ export DEVICE=venus
 export DEVICE_COMMON=sm8350-common
 export VENDOR=xiaomi
 
+export DEVICE_BRINGUP_YEAR=2020
+
 "./../../${VENDOR}/${DEVICE_COMMON}/extract-files.sh" "$@"
